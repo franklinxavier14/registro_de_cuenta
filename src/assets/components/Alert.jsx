@@ -1,9 +1,8 @@
 import React from 'react';
-// import { Alert as BootstrapAlert } from 'react-bootstrap';
 
 const Alert = ({ error, msg, color, success }) => {
   const alertStyle = {
-    marginTop: '15px', // Agrega el margen superior de 15px
+    marginTop: '15px', 
   };
 
   return (
